@@ -78,8 +78,8 @@ datasets/horse2zebra/
 ## Installation
 
 ```bash
-git clone <https://github.com/alirezaalimirzaei2003/Cycle-GAN-re-implementation-Project>
-cd <Cycle-GAN-re-implementation-Project>
+git clone https://github.com/alirezaalimirzaei2003/Cycle-GAN-re-implementation-Project.git
+cd Cycle-GAN-re-implementation-Project
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
