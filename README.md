@@ -3,7 +3,7 @@
 An independent, from-scratch PyTorch re-implementation of **CycleGAN** ([Zhu et al., ICCV 2017](https://arxiv.org/abs/1703.10593)) for unpaired image-to-image translation (horse ↔ zebra), written without reference to the authors' official code. It features a 9-block ResNet generator, 70×70 PatchGAN discriminators, LSGAN loss, and an image history pool, following the paper's architecture and training recipe. The project also includes an **ablation study** on the identity loss and the cycle-consistency weight, evaluated qualitatively and with FID on the `horse2zebra` dataset.
 
 
-> Final project for *Fundamentals of Computer Vision* (Prof. Soltani) by Alireza Alimirzaei.
+
 
 ---
 
