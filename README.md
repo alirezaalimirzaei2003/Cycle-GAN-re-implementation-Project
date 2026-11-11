@@ -58,6 +58,11 @@ Cycle consistency (`F(G(a)) ≈ a` and `G(F(b)) ≈ b`) prevents mode collapse a
 .
 ├── README.md
 ├── REPORT_EN.pdf
+├── results/
+│   ├── Original images/
+│   ├── low-cyc/
+│   ├── no-identity/
+│   └── normal-cycle-gan/
 └── cyclegan_reimp/
     ├── datasets.py       # UnalignedDataset: unpaired loading + augmentation
     ├── models.py         # ResNet generator, PatchGAN discriminator, GAN loss, init
