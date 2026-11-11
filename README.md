@@ -56,13 +56,16 @@ Cycle consistency (`F(G(a)) ≈ a` and `G(F(b)) ≈ b`) prevents mode collapse a
 
 ```
 .
-├── datasets.py       # UnalignedDataset: unpaired loading + augmentation
-├── models.py         # ResNet generator, PatchGAN discriminator, GAN loss, init
-├── utils.py          # ImagePool, LR lambda, tensor/image conversion helpers
-├── train.py          # Training loop, checkpointing, resume
-├── test.py           # Inference: translate test images in both directions
-├── metrics.py        # FID computation
-└── requirements.txt
+├── README.md
+├── REPORT_EN.pdf
+└── cyclegan_reimp/
+    ├── datasets.py       # UnalignedDataset: unpaired loading + augmentation
+    ├── models.py         # ResNet generator, PatchGAN discriminator, GAN loss, init
+    ├── utils.py          # ImagePool, LR lambda, tensor/image conversion helpers
+    ├── train.py          # Training loop, checkpointing, resume
+    ├── test.py           # Inference: translate test images in both directions
+    ├── metrics.py        # FID computation
+    └── requirements.txt
 ```
 
 Expected dataset layout:
